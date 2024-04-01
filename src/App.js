@@ -1,10 +1,17 @@
 import './App.css';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import NavBar from './components/NavBar';
+
+import './styles/tailwind.css';
 
 function App() {
   return (
-    <div className="App">
-      Let's start to create my portfolio🥰.
-    </div>
+    <>
+      <NavBar />
+      <Main />
+      <Footer />
+    </>
   );
 }
 

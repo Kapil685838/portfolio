@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import experienceSlice from './slices/experience';
+import heroReducer from './slices/hero';
+import experienceReducer from './slices/experience';
 
 export const store = configureStore({
     reducer: {
-        experience: experienceSlice,
+        hero: heroReducer,
+        experience: experienceReducer
     },
 })
